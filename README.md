@@ -8,7 +8,6 @@ phỏng trong Ignition Gazebo (world `small_house`): chọn hành vi, xác
 nhận bằng Thumb_Up, dừng khẩn cấp/hủy bằng Open_Palm/Closed_Fist.
 Toàn bộ số liệu đo trong tài liệu này lấy từ
 `docs/REHEARSAL_REPORT.md` và `docs/EVAL_SUMMARY.md`
-(đo thật, không bịa).
 
 ## 2. Yêu cầu hệ thống
 
