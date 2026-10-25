@@ -1,0 +1,27 @@
+gesture_recognition_node:
+  ros__parameters:
+    roi: [0.0, 0.0, 1.0, 1.0]
+    privacy_mode: hand_only
+    mask_margin_px: 18
+    enter_confidence: 0.55
+    exit_confidence: 0.40
+    enter_consecutive: 3
+    exit_none_frames: 3
+    wave_window_sec: 1.5
+    wave_min_reversals: 2
+    wave_min_amplitude: 0.06
+    wave_lost_timeout_sec: 0.5
+    wave_hold_after_sec: 0.8
+    wave_move_window_sec: 0.5
+    wave_move_threshold: 0.03
+    wave_min_swing: 0.03
+    wave_min_avg_speed: 0.05
+    pointing_up_fallback: true
+    pointing_up_fallback_confidence: 0.6
+    victory_fallback: true
+    victory_fallback_confidence: 0.6
+    face_guard_enabled: true
+    face_guard_expand_ratio: 0.4
+    face_guard_hold_sec: 1.0
+    face_guard_detect_scale: 0.5
+    face_guard_every_n: 1

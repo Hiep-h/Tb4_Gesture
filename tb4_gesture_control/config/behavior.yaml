@@ -1,0 +1,22 @@
+robot_behavior_node:
+  ros__parameters:
+    use_sim_time: true
+    control_rate_hz: 20.0
+    hold_s: 0.6
+    stop_hold_s: 0.2
+    cooldown_s: 1.0
+    selection_timeout_s: 30.0
+    signal_timeout_s: 3.0
+    run_timeout_s: 40.0
+    wave_needs_confirm: true
+    wave_refractory_s: 8.0
+    linear_speed: 0.2
+    wave_angular_speed: 0.5
+    circle_linear_speed: 0.2
+    circle_angular_speed: 0.4
+    circle_direction: left
+    scan_guard_enabled: true
+    scan_obstacle_distance: 0.35
+    scan_front_half_angle: 0.4363
+    scan_rear_half_angle: 0.4363
+    scan_angle_offset: 1.5707963267948966

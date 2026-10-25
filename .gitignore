@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+build/
+install/
+log/
+*.egg-info/
+.vscode/
+
+# Downloaded MediaPipe model (fetch with models/download_model.sh)
+tb4_gesture_control/models/*.task
